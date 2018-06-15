@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:layout_marginBottom="30dp"
+    android:layout_marginRight="30dp"
+    android:layout_marginLeft="30dp"
+    android:background="@color/lavender">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tv_confirmation"
+        android:layout_marginTop="50dp"
+        android:layout_centerHorizontal="true"
+        android:text="@string/Confirmation"
+        android:textStyle="bold"
+        />
+
+    <Button
+        android:id="@+id/btn_yes"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/tv_confirmation"
+        android:layout_alignStart="@+id/tv_confirmation"
+        android:layout_below="@+id/tv_confirmation"
+        android:layout_marginTop="24dp"
+        android:text="@string/yes" />
+
+    <Button
+        android:id="@+id/btn_no"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:layout_alignBaseline="@+id/btn_yes"
+        android:layout_alignBottom="@+id/btn_yes"
+        android:layout_alignEnd="@+id/tv_confirmation"
+        android:layout_alignRight="@+id/tv_confirmation"
+        android:text="@string/cancel" />
+
+
+
+</RelativeLayout>

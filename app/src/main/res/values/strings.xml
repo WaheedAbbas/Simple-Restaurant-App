@@ -1,0 +1,38 @@
+<resources>
+    <string name="app_name">Current Location</string>
+    <string name="title_activity_maps">Ready.Set.Eat</string>
+
+    <string name="app_discription">Feel like having a lavish meal? You can book yourself a table at your nearest best restaurant by just a few clicks</string>
+
+    <string name="first_name">First Name</string>
+    <string name="last_name">Last Name</string>
+    <string name="gender">Gender</string>
+    <string name="email_address">Email Address</string>
+    <string name="password">Password</string>
+    <string name="confirm_password">Confirm Password</string>
+
+    <string name="error_empty">This should not be blank</string>
+    <string name="error_mismatch">Password does not match</string>
+    <string name="title_activity_drop_down">DropDownActivity</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Restaurant Reservation App</string>
+    <string name="nav_header_subtitle">Bon Apetite</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+    <string name="findrestaurants">Find Restaurants</string>
+    <string name="restaurant_name">Restaurant Name</string>
+    <string name="restaurant_address">Restaurant Address</string>
+    <string name="book_table">Proceed</string>
+    <string name="cancel">Cancel</string>
+    <string name="Reserved">Reserved</string>
+    <string name="Find">Find nearby restaurants</string>
+    <string name="Confirmation">Do you want to reserve a table?</string>
+    <string name="yes">Yes</string>
+    <string name="no">Cancel</string>
+
+
+
+
+
+</resources>
